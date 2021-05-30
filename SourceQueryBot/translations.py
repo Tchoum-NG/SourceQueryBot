@@ -46,3 +46,15 @@ class Chinese(TranslationBase):
     smart_presence = "{}/{} 在 {}"
     invalid_py_version = "需要 Python 3.7或更高版本" + \
         " smart presence, 您正在运行 {}"
+
+class French_Minimalist(TranslationBase):
+    shutdown = "The bot is shutting down, please DO NOT press ctrl + C"
+    on_ready = "Connecté en tant que {}"
+    server = """**Map:** {}\n**Joueurs:** {}/{}
+**Connect:**\nsteam://connect/{}"""
+    offline_title = "Inconnu"
+    offline_msg = "**Le serveur est hors-ligne.**"
+    normal_presence = "{}/{} Sur Minimalist Darkrp."
+    smart_presence = "{}/{} sur {}"
+    invalid_py_version = "Python 3.7 ou supérieur requis pour" + \
+        " le mode smart presence, votre version de Python: {}"

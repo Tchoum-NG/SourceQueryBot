@@ -8,7 +8,7 @@ import logging
 
 from aioquery.exceptions import InvalidServer, DidNotReceive, UnableToConnect
 
-from .translations import TranslationBase, English
+from .translations import TranslationBase, French_Minimalist
 from .messages import Messages
 from .cached_messaging import CachedMessaging
 
@@ -24,7 +24,7 @@ class SourceQueryBot(discord.Client):
     _total_servers = 0
 
     def __init__(self, catagories: list,
-                 language: TranslationBase = English,
+                 language: TranslationBase = French_Minimalist,
                  messages: Messages = Messages(),
                  smart_presence: bool = False,
                  *args, **kwargs) -> None:
