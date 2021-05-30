@@ -17,4 +17,4 @@ bot_client = SourceQueryBot(
 )
 
 if __name__ == "__main__":
-    bot_client.run("ODQ2ODMzNTg1MTA1MjcyODcy.YK1RPA._Th26TyDjh7whb_ultbKRM0c3lo")
+    bot_client.run("bot token")
